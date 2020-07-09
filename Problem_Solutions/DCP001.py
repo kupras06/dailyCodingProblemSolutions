@@ -36,5 +36,5 @@ def twoNumberSum(arr, k):
 arr = [10, 15, 3, 7]
 k = 22
 print(twoNumberSum(arr, k))
-# The above can be modifiea little to even print those numbers which add upto k. But I am not going there as it
+# The above can be modified little to even print those numbers which add upto k. But I am not going there as it
 # is not my question. how about You give it a try.
