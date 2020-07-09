@@ -9,15 +9,15 @@ Challenge : what if you can't use division?
 SOLUTION"""
 # This is the initial solution. Challenge is not Considered in this. This makes the problem easier
 #   Solution 1
-# import functools as ft
-# def arrayProductExcept(arr):  # Don't worry this is my personal naming way, nothing to get scared. It's called camelCasing btw.
-#     l = lambda x,y:x*y
-#     product = ft.reduce(l,arr)
-#     print(*[product//i for i in arr])
+import functools as ft
+def arrayProductExcept(arr):  # Don't worry this is my personal naming way, nothing to get scared. It's called camelCasing btw.
+    l = lambda x,y:x*y
+    product = ft.reduce(l,arr)
+    print(*[product//i for i in arr])
 
 
-# arr = [1, 2, 3, 4, 5]
-# arrayProductExcept(arr)
+arr = [1, 2, 3, 4, 5]
+arrayProductExcept(arr)
 
 
 # Now we shall consider the challenge. There are two ways to perform divisions without using '/' operator (or performing division as division)
@@ -29,7 +29,7 @@ SOLUTION"""
 # By the way if you are new to programming and this is your first repo you are visiting, you better make a note of these two sites.
 
 
-
+#   Solution 2 (and the original one)
 
 import functools as ft
 
