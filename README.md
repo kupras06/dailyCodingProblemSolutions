@@ -5,3 +5,5 @@ I have only the basic version though (no Bucks).I try the solutions but have no 
 I would appreciate the pro of this world to improve it if it is naive(of course cause it would help me grow).
 If you area beginner like me I encurage you to subscribe there (premium version if possible,cause it will be better).
 HAPPY CODING
+Problem 1
+[Problem_Solutions/DCP001.py]
